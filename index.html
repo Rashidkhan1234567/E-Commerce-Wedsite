@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Add to Card</title>
+  </head>
+  <body>
+    <header>
+      <img src="Untitled.png" alt="">
+      <div class="cool">
+        <input type="text" id="search-box" class="search-box" placeholder="Search Product" >
+        <div id="search-results" class="search-results"></div>
+      </div>
+      <button type="button" id="addCard">Cards <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> <span id="count"> 0</span></button>
+    </header>
+    <div class="user_card" id="uc">
+      <div class="card_head">
+        <h1>Your Cards</h1>
+        <button type="button" id="user_card_del"><i class="fa-solid fa-xmark"></i></button>
+        <hr>
+      </div>
+      <div class="card_body" id="cardBody">
+        <h2 id="h2">Empty !</h2>
+      </div>
+      <div class="card_footer">
+        <hr>
+        <div class="price">
+        <h2>Total Price :</h2>
+        <h2>0 INR</h2>
+        <h2>=</h2>
+        <h2>0 PKR</h2>
+      </div>
+      </div>
+    </div>
+    </div>
+     <div id="main"></div> 
+    <script src="script.js"></script>
+  </body>
+</html>
